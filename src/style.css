@@ -1,0 +1,16 @@
+.content {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem;
+}
+
+.poem_overview {
+    margin: 0;
+    padding: 0;
+}
+
+.poem_overview li {
+    list-style-type: none;
+}
