@@ -1,0 +1,13 @@
+
+.poem-title {
+    margin: 3rem;
+}
+
+.poem {
+    margin: 3rem;
+}
+
+.poem  p::first-letter {
+    font-weight: 700;
+}
+
