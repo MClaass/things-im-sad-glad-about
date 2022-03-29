@@ -15,3 +15,10 @@
     list-style-type: none;
     margin: 1rem 0;
 }
+
+footer {
+    position: fixed;
+    bottom: 3rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
