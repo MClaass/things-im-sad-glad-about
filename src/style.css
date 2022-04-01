@@ -1,9 +1,39 @@
+.container {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    padding: 3rem;
+    width: 100vw;
+    overflow: hidden;
+    background: #C64848;
+}
+
 .content {
     display: flex;
-    flex-flow: column wrap;
-    align-items: center;
+    flex-flow: column nowrap;
+    align-items: flex-start;
     justify-content: center;
-    margin: 3rem;
+    background: #fff;
+    padding: 1.5rem;
+    z-index: 10;
+}
+
+.background {
+    position: absolute;
+    top: -25px;
+    left: 15vw;
+}
+
+.background > svg {
+    height: auto;
+    width: 60vw;
+}
+
+@media only screen and (max-width: 900px) {
+    .background > svg {
+        width: auto;
+        height: 100vh;
+    }
 }
 
 .poem_overview {
@@ -16,9 +46,19 @@
     margin: 1rem 0;
 }
 
+/* .happy {
+    color: #A81600;
+}
+
+.sad {
+    color: #AED8F9;
+} */
+
 footer {
     position: fixed;
     bottom: 3rem;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 0;
+    background: #fff;
+    padding: 0.5rem 3rem;
+    /* transform: translateX(-50%); */
 }
