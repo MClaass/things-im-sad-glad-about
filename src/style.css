@@ -6,6 +6,28 @@
     width: 100vw;
     overflow: hidden;
     background: #C64848;
+    animation: colorChange 15s 1s forwards infinite cubic-bezier(0.47, 0, 0.72, 0.73);
+}
+
+@keyframes colorChange {
+    0% {
+        background: #C64848;
+    }
+    20% {
+        background: #ADC648;
+    }
+    40% {
+        background: #48C67A;
+    }
+    60% {
+        background: #487AC6;
+    }
+    80% {
+        background: #AD48C6;
+    }
+    100% {
+        background: #C64848;
+    }
 }
 
 .content {
